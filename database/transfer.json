@@ -1,0 +1,92 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "AccountName",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "amount",
+        "dbType": "decimal,15,2:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "accountnumber",
+        "dbType": "string:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "date",
+        "dbType": "string:nullable",
+        "htmlType": "date",
+        "validations": "",
+        "searchable": true
+    },
+   
+    {
+        "name": "concept",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "AccountNameb",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "amountb",
+        "dbType": "decimal,15,2:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "accountnumberb",
+        "dbType": "string:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

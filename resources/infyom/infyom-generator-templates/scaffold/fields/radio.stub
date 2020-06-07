@@ -1,0 +1,5 @@
+<div class="form-check form-check-inline">
+    <label class="form-check-label">
+        {!! Form::radio('$FIELD_NAME$', "$VALUE$", null, ['class' => 'form-check-input']) !!} $LABEL$
+    </label>
+</div>

@@ -1,0 +1,290 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "customerName",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "date",
+        "dbType": "string:nullable",
+        "htmlType": "date",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "accountnumber",
+        "dbType": "string:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "customeraddress",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "city",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:100",
+        "searchable": true
+    },
+    {
+        "name": "state",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:100",
+        "searchable": true
+    },
+    {
+        "name": "zip",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "country",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:100",
+        "searchable": true
+    },
+    {
+        "name": "amount",
+        "dbType": "decimal,11,2:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "currency",
+        "dbType": "integer:nullable",
+        "htmlType": "radio,Dollar:1,Other:0",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "Othercurrency",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "intermediary",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "aba",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:50",
+        "searchable": true
+    },
+    {
+        "name": "iban",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:50",
+        "searchable": true
+    },
+    {
+        "name": "swift",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:50",
+        "searchable": true
+    },
+    {
+        "name": "countryi",
+        "dbType": "integer:nullable",
+        "htmlType": "radio,US:1,International:0",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "BeneficiaryBankName",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "Bankstreetaddress",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "cityb",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:100",
+        "searchable": true
+    },
+    {
+        "name": "stateb",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:100",
+        "searchable": true
+    },
+    {
+        "name": "zipb",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "countryb",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:100",
+        "searchable": true
+    },
+    {
+        "name": "BeneficiaryName",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "BeneficiaryAccount",
+        "dbType": "string:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "BeneficiaryAddress",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "citybe",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:100",
+        "searchable": true
+    },
+    {
+        "name": "statebe",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:100",
+        "searchable": true
+    },
+    {
+        "name": "zipbe",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "countrybe",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:100",
+        "searchable": true
+    },
+    {
+        "name": "finalbeneficiary",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "accountnumberf",
+        "dbType": "string:nullable",
+        "htmlType": "number",
+        "validations": "",
+        "searchable": true
+    },
+    {
+        "name": "wiretransferreference",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "especialinstruccions",
+        "dbType": "string:nullable",
+        "htmlType": "text",
+        "validations": "max:255",
+        "searchable": true
+    },
+    {
+        "name": "estatustransferencia",
+        "relation": "1tm,estatustransferencia,id,id",
+        "dbType": "integer:unsigned:foreign,estatus_tranferencias,id",
+        "htmlType": "text",
+        "validations": "exists:estatus_tranferencias,id",
+        "searchable": true
+    },
+    {
+        "name": "creador",
+        "relation": "1t1,creador,id,id",
+        "dbType": "integer:unsigned:foreign,users,id",
+        "htmlType": "text",
+        "validations": "exists:users,id",
+        "searchable": true
+    },
+    {
+        "name": "conciliador",
+        "relation": "1t1,conciliador,id,id",
+        "dbType": "integer:nullable:unsigned:foreign,users,id",
+        "htmlType": "text",
+        "validations": "exists:users,id",
+        "searchable": true
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]

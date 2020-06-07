@@ -1,0 +1,21 @@
+[
+{"name": "id","dbType": "increments","htmlType": "","validations": "","searchable": false,"fillable": true,"primary": true,"inForm": false,"inIndex": false}
+,{"name": "type","dbType": "integer:unsigned","htmlType": "select,none:0,one:1,two:2,three:3,four:4","validations": "","searchable": false,"fillable": true,"primary": false,"inForm": true,"inIndex": false}
+,{"name": "title","dbType": "string","htmlType": "text","validations": "","searchable": true,"fillable": true,"primary": false,"inForm": true,"inIndex": true}
+,{"name": "start_date","dbType": "string","htmlType": "date","validations": "","searchable": true,"fillable": true,"primary": false,"inForm": true,"inIndex": true}
+,{"name": "end_date","dbType": "string","htmlType": "date","validations": "","searchable": true,"fillable": true,"primary": false,"inForm": true,"inIndex": true}
+,{"name": "image","dbType": "string:nullable","htmlType": "file","validations": "","searchable": true,"fillable": true,"primary": false,"inForm": true,"inIndex": true}
+,{"name": "limit_cnt","dbType": "integer:unsigned:nullable","htmlType": "text","validations": "","searchable": false,"fillable": true,"primary": false,"inForm": true,"inIndex": false}
+,{"name": "body","dbType": "text:nullable","htmlType": "textarea","validations": "","searchable": false,"fillable": false,"primary": false,"inForm": true,"inIndex": false}
+,{"name": "mail_title","dbType": "string:nullable","htmlType": "text","validations": "","searchable": false,"fillable": false,"primary": false,"inForm": true,"inIndex": false}
+,{"name": "mail_body","dbType": "text:nullable","htmlType": "textarea","validations": "","searchable": false,"fillable": false,"primary": false,"inForm": true,"inIndex": false}
+,{"name": "send_flg","dbType": "integer:unsigned:default,1","htmlType": "checkbox,1,0","validations": "","searchable": false,"fillable": false,"primary": false,"inForm": true,"inIndex": false}
+,{"name": "comp_msg","dbType": "text:nullable","htmlType": "textarea","validations": "","searchable": false,"fillable": false,"primary": false,"inForm": true,"inIndex": false}
+,{"name": "aliase","dbType": "string,500","htmlType": "text","validations": "","searchable": false,"fillable": false,"primary": false,"inForm": true,"inIndex": false}
+,{"name": "display_flg","dbType": "integer:unsigned:default,0","htmlType": "radio,is_display:1,is_not_display:0","validations": "","searchable": false,"fillable": false,"primary": false,"inForm": true,"inIndex": false}
+,{"name": "ad_tag","dbType": "string:nullable","htmlType": "textarea","validations": "","searchable": false,"fillable": false,"primary": false,"inForm": true,"inIndex": false}
+,{"name": "created_id","dbType": "integer:unsigned:default,1","htmlType": "text","validations": "","searchable": false,"fillable": false,"primary": false,"inForm": false,"inIndex": false}
+,{"name": "updated_id","dbType": "integer:unsigned:default,1","htmlType": "text","validations": "","searchable": false,"fillable": false,"primary": false,"inForm": false,"inIndex": false}
+,{"name": "created_at","dbType": "timestamp","htmlType": "","validations": "","searchable": false,"fillable": true,"primary": false,"inForm": false,"inIndex": false}
+,{"name": "updated_at","dbType": "timestamp","htmlType": "","validations": "","searchable": false,"fillable": true,"primary": false,"inForm": false,"inIndex": false}
+]

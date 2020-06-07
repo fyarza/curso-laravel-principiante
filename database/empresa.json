@@ -1,0 +1,93 @@
+[
+    {
+        "name": "id",
+        "dbType": "increments",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": true,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "tipo",
+        "dbType": "string,1",
+        "htmlType": "select,J:J,V:V,G:G",
+        "validations": "",
+        "fillable": true,
+        "inForm": true,
+        "inIndex": true,
+        "searchable": true
+    },
+    {
+        "name": "rif",
+        "dbType": "string,11:unique",
+        "htmlType": "text",
+        "validations": "required|max:11|unique:empresas,rif,$id",
+        "inForm": true,
+        "inIndex": true,
+        "searchable": true
+    },
+    {
+        "name": "nombre",
+        "dbType": "string",
+        "htmlType": "text",
+        "validations": "required|max:255",
+        "inForm": true,
+        "inIndex": true,
+        "searchable": true
+    },
+    {
+        "name": "direccion",
+        "dbType": "string",
+        "htmlType": "textarea",
+        "validations": "max:30000",
+        "fillable": true,
+        "inForm": true,
+        "inIndex": false,
+        "searchable": true
+    },
+    {
+        "name": "telefono",
+        "dbType": "string",
+        "htmlType": "number",
+        "validations": "required|max:11",
+        "fillable": true,
+        "inForm": true,
+        "inIndex": false,
+        "searchable": true
+    },
+    {
+        "name": "email",
+        "dbType": "string",
+        "htmlType": "email",
+        "validations": "required|max:255|email|unique:empresas,email,$id",
+        "fillable": true,
+        "inForm": true,
+        "inIndex": false,
+        "searchable": true
+    },
+    {
+        "name": "created_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    },
+    {
+        "name": "updated_at",
+        "dbType": "timestamp",
+        "htmlType": "",
+        "validations": "",
+        "searchable": false,
+        "fillable": false,
+        "primary": false,
+        "inForm": false,
+        "inIndex": false
+    }
+]
